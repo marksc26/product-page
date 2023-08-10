@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+hr {
+    width: 72%;
+    border: 1px solid rgba(128, 128, 128, 0.226);
+}
