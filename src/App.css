@@ -266,12 +266,18 @@
 }
 
 @media(max-width: 790px) {
+    .hidden {
+        overflow: hidden;
+        height: 100vh;
+    }
+
     .productImgs {
         display: none;
     }
 
     .carousel-mobile {
-        display: block;
+        display: flex;
+
     }
 
     .img-mobile {

@@ -7,7 +7,7 @@ import Cart from './Cart'
 import { useState } from 'react'
 
 
-const Header = ({ addToCart, images, handleDelete, showCart, setShowCart }) => {
+const Header = ({ addToCart, images, handleDelete, showCart, setShowCart, hidden, setHidden }) => {
 
     const [count, setCount] = useState(0)
     const [burger, setBurger] = useState(false)
@@ -23,6 +23,7 @@ const Header = ({ addToCart, images, handleDelete, showCart, setShowCart }) => {
         setBurger(!burger)
         setMenu(!menu)
         setShowCart(false)
+        setHidden(!hidden)
     }
 
     return (

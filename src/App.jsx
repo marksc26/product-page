@@ -20,6 +20,7 @@ function App() {
     JSON.parse(localStorage.getItem("addToCart")) || 0
   )
   const [showCart, setShowCart] = useState(false)
+  const [hidden, setHidden] = useState(false)
 
 
   const handleMinus = () => {
@@ -64,13 +65,15 @@ function App() {
 
 
   return (
-    <main>
+    <main className={!hidden ? "main" : "hidden"}>
       <Header
         addToCart={addToCart}
         images={images}
         handleDelete={handleDelete}
         showCart={showCart}
         setShowCart={setShowCart}
+        setHidden={setHidden}
+        hidden={hidden}
       />
       <div className='hr-header'>
         <hr />
