@@ -12,8 +12,8 @@ const Footer = () => {
                 </div>
                 <div className='social-media'>
                     <i className='bx bxl-instagram'></i>
-                    <i class='bx bxl-pinterest-alt'></i>
-                    <i class='bx bxl-youtube'></i>
+                    <i className='bx bxl-pinterest-alt'></i>
+                    <i className='bx bxl-youtube'></i>
                 </div>
             </div>
 

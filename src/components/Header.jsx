@@ -18,6 +18,7 @@ const Header = ({ addToCart, images, handleDelete, showCart, setShowCart, hidden
         setShowCart(!showCart)
         setMenu(false)
         setHidden(false)
+        setBurger(false)
     }
 
     const handleMenu = () => {
