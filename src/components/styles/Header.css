@@ -111,6 +111,14 @@
 
 @media(max-width: 790px) {
 
+    .logo-menu {
+        gap: 15px;
+
+    }
+
+    .cart-perfil {
+        gap: 15px;
+    }
 
     .menu-hamburger {
         display: flex;
@@ -198,7 +206,7 @@
         background-color: rgba(0, 0, 0, 0.507);
         z-index: 111;
         transition: all 700ms ease-in-out;
-        overflow: hidden;
+        height: 100%;
     }
 
     .menu ul {
